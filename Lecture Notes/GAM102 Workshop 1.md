@@ -1,3 +1,5 @@
+# GAM102 Workshop 1
+
 Audio Source attached to object projects audio from the attached object (built in directional sound and echo)
 
 transform for child objects references position relative to parent object (0,0,0 in child object is wherever the parent object is)
