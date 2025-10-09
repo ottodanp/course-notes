@@ -55,3 +55,25 @@ Hard shadows are generally more efficient than soft shadows
 
 • Window > Rendering > Lighting • This will add a new window with light settings – dock it alongside the Inspector for ease of access. • To adjust the settings, create a new Lighting Settings Asset. • There are many options to control whether the lightmapper uses CPU or GPU, quality, light bounces, indirect lighting intensity, and the resolution of lightmaps. • For speed today let's use the GPU Lightmapper. • Hit Generate Lighting to bake your lighting. This might take a few minutes, depending on the size and complexity of your scene.
 • Meshes need to have lightmap UVs, or the light bake will have strange results in most cases (as seen in the left image). • To fix this, select your meshes in the Project tab, and in the Inspector panel select Generate Lightmap UVs.
+
+### Environment and Skybox
+Even with all lights disabled, there is still lighting coming from the environment. This can be disabled via the environment tab, which is the same place where fog can be added
+
+### HDRIS
+High dynamic range images can be used as the source of environmental lighting.
+
+### Light Probes
+Light probes are similar to light maps in that they store pre calculated lighting data.
+However, they store light passing through empty space (each probe is like a position that receives baked lighting)
+without light probes, dynamic objects will not receive illumination
+
+Edit light probes using the edit light probe group tool in the scene tools overlay.
+Aim to place them around areas of complexity and difference in lighting. Once positioned, rebake the lighting 
+
+### Adaptive Probe Volumes
+Adaptive probe volumes place groups of light probes automatically in the scene to create baked indirect lighting 
+
+### Reflections
+Reflection probes are unity's solution to capturing and rendering reflections.
+Light -> Reflection Probe
+Settings such as the shape, quality, colour and size may be adjusted. Reflection probes are individually baked.
