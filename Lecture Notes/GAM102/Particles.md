@@ -16,3 +16,4 @@ Emission controls the number of particles spawning over time
 Bursts may be added to make them spawn at once. 
 Shape controls the shape of the area in which particles spawn, which will impact their initial direction and motion.
 
+[[GAM102]]
