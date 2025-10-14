@@ -4,12 +4,10 @@ First, create a new script called Health and define a public variable for player
 - It's used to tell the image how much "fill" it uses. 
 - Fill acts like a mask hiding parts of the image.
 - Takes a float input from 0 to 1
-
 ##### Creating the UI Element
 - Right click on your canvas and go to UI > Image.
 - This will create an image object.
 - Call it HealthBar.
-
 ##### Adding a [[Sprite]]
 - go to your Texture folder then drag & drop the texture from file explorer to the Texture folder. 
 - Next select the texture and go to the inspector. 
@@ -26,11 +24,8 @@ First, create a new script called Health and define a public variable for player
 - Now create an EmptyGameObject to add our Health script to.
 - Finally set the healthBar variable to be the Image GameObject we made for our health bar. 
 - Press Play and change the health value on the script to see how it changes the health bar.
-
 ##### Editing Text
 TMP_Text.text can be reassigned to change the displayed text.
-
-
 ```C#
 using UnityEngine
 using UnityEngine.UI
