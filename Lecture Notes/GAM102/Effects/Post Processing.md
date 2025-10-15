@@ -15,4 +15,4 @@ This allows the adjustment of the overall colour and brightness of the scene
 ### Film Effects
 Such as depth of field, film grain, lens distortion, lift, gamma, gain, motion blur, panini projection, screen space lens flare, vignette 
 
-[[GAM102]]
+[[Effects]]

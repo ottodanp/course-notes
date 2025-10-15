@@ -78,4 +78,4 @@ Reflection probes are unity's solution to capturing and rendering reflections.
 Light -> Reflection Probe
 Settings such as the shape, quality, colour and size may be adjusted. Reflection probes are individually baked.
 
-[[GAM102]]
+[[Effects]]

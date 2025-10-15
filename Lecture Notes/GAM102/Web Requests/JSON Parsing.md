@@ -32,4 +32,4 @@ public struct CurrentData
 JsonUtility.FromJson<WeatherRequest>(response) // Should return a WeatherRequest object if no errors are raised
 ```
 
-[[API Requests]]
+[[Web Requests]]
