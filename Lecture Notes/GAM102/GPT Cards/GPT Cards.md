@@ -1,4 +1,3 @@
 ### Base
 Starting with a [[Canvas]]
-
-[[GAM102]]
+#GAM102

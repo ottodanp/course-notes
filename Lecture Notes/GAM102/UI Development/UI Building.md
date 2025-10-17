@@ -16,4 +16,4 @@ UI -> Canvas
 	- Select UI > Button - TextMeshPro
 	- This will create a [[Button]] object in our Canvas.
 
-[[GAM102]]
+#GAM102

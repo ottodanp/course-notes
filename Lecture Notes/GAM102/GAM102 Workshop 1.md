@@ -34,4 +34,4 @@ terrain layers can be added using the "paint texture" feature
 
 to paint a texture, select object -> paint texture -> create layer for each material -> paint with brush
 
-[[GAM102]]
+#GAM102
