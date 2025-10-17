@@ -7,9 +7,9 @@ TextMeshPro is the standard in Unity for adding text.
 	- Alignment
 	- Size
 ### Moving Text
-- We can move our text the same way we move any other GameObject in the scene.
+- We can move our text the same way we move any other [[GameObject]] in the scene.
 - You can drag it around using the Transform component.
 - This will raise an issue though.
 - Depending on the size and scale of the monitor the UI might not scale correctly.
 - This is where [[Anchor]] come in.
-[[Common Classes]]
+[[Unity Builtins]]
